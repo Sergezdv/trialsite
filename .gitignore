@@ -7,26 +7,13 @@
 # Ignore bundler config
 /.bundle
 
-# Ignore the default pg database.
-/db/*.pg
+# Ignore the default SQLite database.
+/db/*.sqlite3
 
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+public/system/pictures/picts/
+.idea/
 
-# Ignore temp files
-*~
-*.swp
-/.idea/*
-
-/db/schema.rb
-
-/public/system/*
-
-/test/*
-
-# Ignore bundler config
-/.bundle
-
-# Ignore database config file
-/config/database.yml
+.rvmrc

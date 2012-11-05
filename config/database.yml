@@ -1,0 +1,20 @@
+login: &login
+  adapter: postgresql
+  encoding: utf8
+  reconnect: false
+  username: serges
+  host: localhost
+  password: '123456'
+  port: 5432
+
+development:
+  <<: *login
+  database: sergedb_development
+
+test:
+  <<: *login
+  database: sergedb_test
+
+production:
+  <<: *login
+  dtabase: sergedb_prodaction
