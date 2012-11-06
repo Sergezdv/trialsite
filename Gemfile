@@ -28,6 +28,10 @@ gem 'jquery-rails'
 
 gem "haml-rails", "~> 0.3.5"
 
+gem 'kaminari'
+
+gem 'carrierwave'
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
@@ -42,3 +46,5 @@ gem "haml-rails", "~> 0.3.5"
 
 # To use debugger
 # gem 'debugger'
+
+
