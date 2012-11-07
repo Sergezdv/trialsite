@@ -1,6 +1,6 @@
 class Category < ActiveRecord::Base
-  attr_accessible :name
+  attr_accessible :content, :name, :title
 
-  has_many :pictures
+  has_many :images
 
 end
